@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+nav{
+    background-color: rgb(156, 5, 216);
+    height: 50px;
+    padding: 7px;
+    padding-left: 15px;
+    color: #fff;
+    box-shadow: inset 0px -3px 10px rgb(0, 0, 0);
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    top: 170px;
+    height: 420PX;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.192);
+    background-color: #ffffff43;
+    border-radius: 20px;
+    border: 15px solid #00000022;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 20px 5px #9c05d8;
+}
+
+.passbox{
+    width: 320px;
+    height: 40px;
+    color: black;
+    font-size: 17px;
+    padding: 13px;
+    outline: 0;
+    border-radius: 20px;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 20px;
+}
+.passlnth{
+    position: relative;
+    top: 40px;
+    width: 295px;
+    accent-color:  #9c05d8;
+    cursor: pointer;
+    height: 10px;
+}
+.row{
+    display: flex;
+    margin-block: 8px;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    color: #fff;
+    
+}
+.properties{
+    position: relative;
+    top: 50px;
+    accent-color: #9c05d8;
+    font-size: 15px;
+}
+
+.properties input, label{
+    margin: 10px;
+}
+.genbtn{
+    position: relative;
+    top: 75px;
+    height: 50px;
+    width: 320px;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    background-color: #9c05d8;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.genbtn:hover{
+    box-shadow: 0px 0px 10px #9c05d8 , rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#sliderValue{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    color: white;
+    position: relative;
+    bottom: 9px;
+    left: 20px;
+
+}
+
+
+
+
+
+
+

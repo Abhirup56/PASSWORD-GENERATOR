@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+</head>
+<body>
+    <nav>
+        <h2>Password Generator</h2>
+    </nav>
+    <div class="box">
+    <div class="container">
+        <div class="inputbox">
+            <input type="text" class="passbox" id="passbox" readonly style="background-color: white; cursor:text;">
+        </div>
+        <input type="range" class="passlnth" id="inputSlider" max="30" value="8">
+        <div class="row">
+            <p>Password strength</p>&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="number" max="30" min="4" value="8" id="sliderValue">
+        </div>
+
+        <div class="properties">
+            <input type="checkbox" name="lowercase" id="lowercase"checked>
+            <label for="lowercase">Include lowercase charecter [a-z]</label><br>
+            <input type="checkbox" name="uppercase" id="uppercase" checked>
+            <label for="uppercase">Include uppercase charecter [A-Z]</label><br>
+            <input type="checkbox" name="special" id="special" checked>
+            <label for="special">Include special charecters [~-*]</label><br>
+            <input type="checkbox" name="number" id="number"checked> 
+            <label for="number">Include numbers charecter [0-9]</label>
+        </div>
+        <button onclick="genPass()" class="genbtn">GENERATE PASSWORD</button>
+    </div></div>
+    <script src="script.js"></script>
+</body>
+</html>
+
